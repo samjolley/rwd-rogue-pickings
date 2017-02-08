@@ -1,3 +1,14 @@
+/***** Mobile First *****/
+
+/* Logo & Navigation */
+
+/* Top Section */
+
+/* Bottom Section */
+
+/* Footer */
+
+
 body {
 	max-width: 1200px; 
 	margin: 0 auto; 
@@ -159,3 +170,35 @@ footer span {
 	color: #77a466; 
 	font-size: 14px;
 }
+
+/***** Tablet Portrait *****/
+
+/* Logo & Navigation */
+
+/* Top Section */
+
+/* Bottom Section */
+
+/* Footer */
+
+
+/***** Tablet Landscape *****/
+
+/* Logo & Navigation */
+
+/* Top Section */
+
+/* Bottom Section */
+
+/* Footer */
+
+
+/***** Desktop *****/
+
+/* Logo & Navigation */
+
+/* Top Section */
+
+/* Bottom Section */
+
+/* Footer */
