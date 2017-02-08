@@ -2,75 +2,35 @@
 
 /* Logo & Navigation */
 
-/* Top Section */
-
-/* Bottom Section */
-
-/* Footer */
-
-
-body {
-	max-width: 1200px; 
-	margin: 0 auto; 
-	font-family: Montserrat, Helvetica, Arial, sans-serif;
+.logo-nav {
+	font-size: 2em;
 }
 
-h1, 
-h3, 
-h4 {
-	color: black; 
-	text-transform: uppercase; 
-}
-
-h1 {
-	font-size: 30px; 
-	text-align: left; 
-	width: auto; 
-	float: left; 
-	padding: 15px 0;
-}
-
-h3 {
-	font-size: 18px; 
-	text-align: center; 
-	padding: 15px;
-}
-
-h4 {
-	font-size: 12px;
-}
-
-.main-title h3 {
+.logo-nav .main-title h3 {
 	text-align: left; 
 	padding: 5px 0px; 
 	text-transform: uppercase; 
 	color: #77a466; 
 }
 
-p {
-	padding: 0px 30px; 
-	line-height: 21px; 
-	font-size: 14px;
-}
-
 /*The widths are in a percentage!*/
-header {
+.logo-nav header {
 	width: 100%; 
 	height: 110px; 
 	border-bottom: 3px solid #77a466; 
 	margin: 0 auto;
 }
 
-header span {
+.logo-nav header span {
 	color: #77a466;
 }
 
-header nav {
+.logo-nav header nav {
 	float: right; 
 	padding: 45px 0px;
 }
 
-header nav a {
+.logo-nav header nav a {
 	text-decoration: none; 
 	text-transform: uppercase; 
 	font-weight: bold; 
@@ -79,9 +39,10 @@ header nav a {
 	color:#77a466;
 }
 
+/* Top Section */
+
 /*The widths are in a percentage!*/
-.top-section, 
-.bottom-section {
+.top-section {
 	width: 100%; 
 	margin: 0 auto; 
 	clear: both;
@@ -108,6 +69,14 @@ header nav a {
 	padding: 0px; 
 	line-height: 25px; 
 	font-size: 16px;
+}
+
+/* Bottom Section */
+
+.bottom-section {
+	width: 100%; 
+	margin: 0 auto; 
+	clear: both;
 }
 
 .section-one, 
@@ -154,6 +123,9 @@ header nav a {
 	line-height: 24px;
 }
 
+
+/* Footer */
+
 /*The widths are in a percentage!*/
 footer {
 	width: 100%; 
@@ -170,6 +142,52 @@ footer span {
 	color: #77a466; 
 	font-size: 14px;
 }
+
+
+html {
+	font-size: 16px;
+}
+
+body {
+	max-width: 1200px; 
+	margin: 0 auto; 
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+h1, 
+h3, 
+h4 {
+	color: black; 
+	text-transform: uppercase; 
+}
+
+h1 {
+	font-size: 30px; 
+	text-align: left; 
+	width: auto; 
+	float: left; 
+	padding: 15px 0;
+}
+
+h3 {
+	font-size: 18px; 
+	text-align: center; 
+	padding: 15px;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+
+
+p {
+	padding: 0px 30px; 
+	line-height: 21px; 
+	font-size: 14px;
+}
+
 
 /***** Tablet Portrait *****/
 
