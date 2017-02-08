@@ -1,51 +1,97 @@
 /***** Mobile First *****/
 
+/* Layout */
+html {
+	font-size: 16px;
+}
+
+body {
+	max-width: 400px; 
+	margin: 0 auto; 
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	padding: 0 15px;
+}
+
+/* Typography */
+
+h1, 
+h3, 
+h4 {
+	color: black; 
+	text-transform: uppercase; 
+}
+
+h1 {
+	font-size: 1.875em; 
+	text-align: left; 
+	width: auto; 
+	float: left; 
+	padding: 15px 0;
+}
+
+h3 {
+	font-size: 1.125em; 
+	text-align: center; 
+	padding: 15px;
+}
+
+h4 {
+	font-size: .75em;
+}
+
+p {
+	padding: 0px 30px; 
+	line-height: 21px; 
+	font-size: .875em;
+}
+
 /* Logo & Navigation */
 
-.logo-nav {
-	font-size: 2em;
+header.logo-nav {
+	font-size: 1em;
+	padding: 15px 60px;
 }
 
-.logo-nav .main-title h3 {
-	text-align: left; 
-	padding: 5px 0px; 
-	text-transform: uppercase; 
-	color: #77a466; 
+header h1 {
+	width: 270px;
+	padding: 0;
 }
 
-/*The widths are in a percentage!*/
-.logo-nav header {
+font-family: 'Montserrat', sans-serif;
+header {
 	width: 100%; 
 	height: 110px; 
 	border-bottom: 3px solid #77a466; 
 	margin: 0 auto;
 }
 
-.logo-nav header span {
+header span {
 	color: #77a466;
 }
 
-.logo-nav header nav {
+header nav {
 	float: right; 
-	padding: 45px 0px;
+	padding: 20px 0px;
 }
 
-.logo-nav header nav a {
+header nav a {
 	text-decoration: none; 
 	text-transform: uppercase; 
 	font-weight: bold; 
-	font-size: 14px; 
+	font-size: .875em; 
 	padding: 0 10px; 
 	color:#77a466;
 }
 
 /* Top Section */
 
-/*The widths are in a percentage!*/
+font-family: 'Montserrat', sans-serif;
 .top-section {
 	width: 100%; 
 	margin: 0 auto; 
 	clear: both;
+	font-size: 1em;
 }
 
 .main-image {
@@ -64,11 +110,18 @@
 	height: auto; 
 	float: left;
 }
+.main-title h3 {
+	text-align: left; 
+	padding: 5px 0px; 
+	text-transform: uppercase; 
+	color: #77a466; 
+	font-size: 1.125em;
+}
 
 .main-title p {
 	padding: 0px; 
 	line-height: 25px; 
-	font-size: 16px;
+	font-size: 1em;
 }
 
 /* Bottom Section */
@@ -77,34 +130,36 @@
 	width: 100%; 
 	margin: 0 auto; 
 	clear: both;
+	font-size: 1em;
 }
 
 .section-one, 
 .section-two, 
 .section-three {
-	width: 33%; 
-	height: auto; 
-	float: left; 
+	width: 100%;
+	height: auto;
 	border-top: 1px solid #eee;
 }
 
 .section-one, 
 .section-two {
-	border-right: 1px solid #eee;
 }
 
 .section-one h4 {
 	padding: 10px 0px;
+	font-size: .75em;
 }
 
 .section-two h4, 
 .section-three h4 {
 	padding: 10px 30px;
+	font-size: .75em;
 }
 
 .menu {
 	list-style: none; 
 	padding: 0px;
+	font-size: 1em;
 }
 
 .menu li {
@@ -115,18 +170,17 @@
 .reviews {
 	color: #333; 
 	line-height: 21px; 
-	font-size: 16px;
+	font-size: 1em;
 }
 
 .address {
-	font-size: 16px; 
-	line-height: 24px;
+	font-size: 1em; 
+	line-height: 1.5em;
 }
 
 
 /* Footer */
 
-/*The widths are in a percentage!*/
 footer {
 	width: 100%; 
 	height: 50px; 
@@ -140,83 +194,25 @@ footer span {
 	font-family: "Wisdom Script", script; 
 	text-transform: lowercase; 
 	color: #77a466; 
-	font-size: 14px;
 }
 
-
-html {
-	font-size: 16px;
+footer h4 {
+	font-size: .75em;
 }
-
-body {
-	max-width: 1200px; 
-	margin: 0 auto; 
-	font-family: Montserrat, Helvetica, Arial, sans-serif;
-	font-size: 1em;
-}
-
-h1, 
-h3, 
-h4 {
-	color: black; 
-	text-transform: uppercase; 
-}
-
-h1 {
-	font-size: 30px; 
-	text-align: left; 
-	width: auto; 
-	float: left; 
-	padding: 15px 0;
-}
-
-h3 {
-	font-size: 18px; 
-	text-align: center; 
-	padding: 15px;
-}
-
-h4 {
-	font-size: 12px;
-}
-
-
-
-p {
-	padding: 0px 30px; 
-	line-height: 21px; 
-	font-size: 14px;
-}
-
 
 /***** Tablet Portrait *****/
-
-/* Logo & Navigation */
-
-/* Top Section */
-
-/* Bottom Section */
-
-/* Footer */
-
-
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+ 
+}
+ 
 /***** Tablet Landscape *****/
 
-/* Logo & Navigation */
 
-/* Top Section */
-
-/* Bottom Section */
-
-/* Footer */
 
 
 /***** Desktop *****/
-
-/* Logo & Navigation */
-
-/* Top Section */
-
-/* Bottom Section */
-
-/* Footer */
+@media all and (min-width:940px) {
+    /* Desktop styles here */
+ 
+}
