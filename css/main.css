@@ -141,19 +141,11 @@ font-family: 'Montserrat', sans-serif;
 	border-top: 1px solid #eee;
 }
 
-.section-one, 
-.section-two {
-}
-
-.section-one h4 {
-	padding: 10px 0px;
-	font-size: .75em;
-}
-
+.section-one h4,
 .section-two h4, 
 .section-three h4 {
-	padding: 10px 30px;
-	font-size: .75em;
+	font-size: 1.125em;
+	padding-left: 25px;
 }
 
 .menu {
